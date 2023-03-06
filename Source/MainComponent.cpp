@@ -18,8 +18,8 @@ void MainComponent::paint (juce::Graphics& g)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
     g.setFont (juce::Font (44.0f));
-    g.setColour (juce::Colours::red);
-    g.drawText ("dalbin", getLocalBounds(), juce::Justification::centred, true);
+    g.setColour (juce::Colours::blue);
+    g.drawText ("DALBIN", getLocalBounds(), juce::Justification::centred, true);
 }
 
 void MainComponent::resized()
